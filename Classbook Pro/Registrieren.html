@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de-de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Classbook Pro, digitales Klassenbuch">
+        <meta name="description" content="Digitales Klassenbuch.">
+        <meta name="author" content="IsiTapier">
+        <meta name="robots" content="index, unfollow">
+        <meta name="revisit-after" content="2 month">
+        <title>Classbook Pro | Registrieren</title>
+
+        <script src="js/getData.js"></script>
+        <script src="js/checkData.js"></script>
+        <script>submitCheck();</script>
+
+
+    </head>
+    <body>
+        <h1 title="bei Classbook Pro Registrieren">Classbook Pro | Registrieren</h1>
+
+        <!-- Registrier-Felder -->
+        <form id="form" action="upload.php" method="POST" title="Registrieren">
+            <input id="username" onchange="checkUsername(getData())" type="text" name="username" placeholder="Benutzername" size="23" maxlength="20" autocomplete="off" required="on" autofocus="on" title="Benutzername eintragen"><br>
+            <input id="email" type="email" name="email" placeholder="E-Mail Adresse" size="23" autocomplete="off" required="on" title="E-Mail Adresse eingeben"><br>
+            <input id="email2" onchange="checkEmail(getData())" type="email" placeholder="E-Mail Adresse wiederholen" size="23" autocomplete="off" required="on" title="E-Mail Adresse wiederholen"><br>
+            <input id="password" type="password" name="password" placeholder="Passwort" size="23" maxlength="20" autocomplete="off" required="on" title="Passwort eingeben"><br>
+            <input id="password2" onchange="checkPassword()" type="password" placeholder="Passwort wiederholen" size="23" maxlength="20" autocomplete="off" required="on" title="Passwort wiederholen"><br>
+            <input id="submit" type="submit" value="Bestätigen" title="Bestätigen und zur Anmeldung">
+        </form>
+    </body>
+</html>

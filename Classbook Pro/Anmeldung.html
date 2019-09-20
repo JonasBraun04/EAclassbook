@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de-de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Classbook Pro, digitales Klassenbuch">
+        <meta name="description" content="Digitales Klassenbuch.">
+        <meta name="author" content="IsiTapier">
+        <meta name="robots" content="index, unfollow">
+        <meta name="revisit-after" content="2 month">
+        <title>Classbook Pro | Anmeldung</title>
+        <link href="css/Anmeldung.css" type="text/css" rel="stylesheet">
+        <script src="js/login.js"></script>
+        <script>passwordChecker()</script>
+    </head>
+    <body>
+        <h1 title="Anmeldung bei Classbook Pro" id="heading"><span id="headingContent">Classbook Pro | Anmeldung</span></h1>
+
+        <!-- Anmelde-Felder -->
+        <form id="test" action="Startseite.html" method="post" title="Anmeldung">
+            <input id="username" class="input" type="text" onchange="checkUsername()" name="benutzername" placeholder="Benutzername / E-Mail" size="23" maxlength="20" autocomplete="on" required="on" autofocus="on" title="Benutzername oder E-Mail Adresse eingeben"><br>
+            <input id="password" class="input" type="password" name="passwort" placeholder="Passwort" size="23" maxlength="20" autocomplete="off" required="on" title="Passwort eingeben"><br>
+            <input class="input" type="submit" value="Anmelden" title="bestätigen und Anmelden">
+            <a class="link" href="Registrieren.html" title="zum Registrieren">Registrieren</a>
+        </form>
+    </body>
+</html>

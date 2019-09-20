@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cute+Font|Dokdo|Fjalla+One|Heebo|Josefin+Sans|Libre+Barcode+39|Libre+Franklin|Manuale|Noto+Serif|Roboto+Mono');
+
+/*
+
+
+    font-family: 'Heebo', sans-serif;
+
+    font-family: 'Dokdo', cursive;
+
+    font-family: 'Libre Barcode 39', cursive;
+
+    font-family: 'Noto Serif', serif;
+
+    font-family: 'Roboto Mono', monospace;
+
+    font-family: 'Manuale', serif;
+
+    font-family: 'Fjalla One', sans-serif;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Libre Franklin', sans-serif;
+
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Cute Font', cursive;
+
+
+*/
+body {
+    text-align: center;
+    width: 98%;
+}
+
+#heading {
+    font-size: 40px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Libre Franklin', sans-serif;
+}

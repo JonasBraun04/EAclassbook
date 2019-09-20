@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de-de">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Classbook Pro, digitales Klassenbuch">
+        <meta name="description" content="Digitales Klassenbuch.">
+        <meta name="author" content="IsiTapier">
+        <meta name="robots" content="index, unfollow">
+        <meta name="revisit-after" content="2 month">
+        <title>Classbook Pro | Zufallsgenerator</title>
+        <script src="../js/randomGenerator.js"></script>
+        <script>load()</script>
+    </head>
+    <body>
+        <h1 title="Zufallsgenerator">Classbook Pro | Zufallsgenerator</h1>
+
+        <form>
+          <select id="select" name="type" onchange="checkRandom()">
+              <option selected>Auswählen</option>
+              <option value="schueler">Schüler</option>
+              <option value="numbers">Zahlen</option>
+              <option value="letters">Alphabet</option>
+          </select>
+          <div id="random">
+          </div>
+        </form>
+
+        <form>
+            <select name="type" required="true">
+                <option selected>Auswählen</option>
+                <option value="schueler">Schüler</option>
+                <option value="numbers">Zahlen</option>
+                <option value="letters">Alphabet</option>
+            </select>
+            <select name="type2">
+                <option selected value="schueler">Alle Schüler</option>
+                <option value="without">ohne Bestimmte</option>
+                <option value="only">nur Bestimmte</option>
+            </select>
+            <select name="élève" required="true">
+                <option selected>Schüler auswählen</option>
+                <option value="schueler">Schüler</option>
+            </select>
+            <input type="submit" value="Starten">
+        </form>
+        <form>
+            <select name="type" required="true">
+                <option selected>Auswählen</option>
+                <option value="schueler">Schüler</option>
+                <option value="numbers">Zahlen</option>
+                <option value="letters">Alphabet</option>
+            </select>
+            <input type="number" name="number-start" placeholder="Startzahl" required="true">
+            <input type="number" name="number-end" placeholder="Endzahl" required="true">
+            <input type="submit" value="Starten">
+        </form>
+        <form>
+            <select name="type" required="true">
+                <option selected>Auswählen</option>
+                <option value="schueler">Schüler</option>
+                <option value="numbers">Zahlen</option>
+                <option value="letters">Alphabet</option>
+            </select>
+            <select name="start-letter" required="true">
+                <option selected>a</option>
+                <option>b</option>
+                <option>c</option>
+                <option>d</option>
+                <option>e</option>
+                <option>f</option>
+                <option>g</option>
+                <option>h</option>
+                <option>i</option>
+                <option>j</option>
+                <option>k</option>
+                <option>l</option>
+                <option>m</option>
+                <option>n</option>
+                <option>o</option>
+                <option>p</option>
+                <option>q</option>
+                <option>r</option>
+                <option>s</option>
+                <option>t</option>
+                <option>u</option>
+                <option>v</option>
+                <option>w</option>
+                <option>x</option>
+                <option>y</option>
+                <option>z</option>
+            </select>
+			<p>bis</p>
+            <select name="end-letter" required="true">
+                <option>a</option>
+                <option>b</option>
+                <option>c</option>
+                <option>d</option>
+                <option>e</option>
+                <option>f</option>
+                <option>g</option>
+                <option>h</option>
+                <option>i</option>
+                <option>j</option>
+                <option>k</option>
+                <option>l</option>
+                <option>m</option>
+                <option>n</option>
+                <option>o</option>
+                <option>p</option>
+                <option>q</option>
+                <option>r</option>
+                <option>s</option>
+                <option>t</option>
+                <option>u</option>
+                <option>v</option>
+                <option>w</option>
+                <option>x</option>
+                <option>y</option>
+                <option selected>z</option>
+            </select>
+            <input type="submit" value="Starten">
+        </form>
+    </body>
+</html>
