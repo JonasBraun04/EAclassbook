@@ -20,4 +20,3 @@ function setNumbers() {
   var randomDiv = document.getElementById("random");
   //To Do Auswahlfelder adden
 }
-//Test
